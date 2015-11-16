@@ -19,5 +19,5 @@ JAR, die modifizierte MapReduce und Spark Jobs enthalten, um sie wie in Listing 
 spRed.java:              
 endgültiger Spark Code
 
-sparkRed_inFile.java:
-modifizierter Spark Code, der einen Inputstream und einen Outputstream enthäalt
+sparkRed_inFile.java:   
+modifizierter Spark Code, der einen Inputstream und einen Outputstream enthält
