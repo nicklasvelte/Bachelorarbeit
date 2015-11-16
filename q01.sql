@@ -20,7 +20,7 @@ CREATE TABLE ${hiveconf:RESULT_TABLE} (
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'
 STORED AS ${env:BIG_BENCH_hive_default_fileformat_result_table} LOCATION '${hiveconf:RESULT_DIR}';
 
--- the real query part
+-- the real query part 
 --Find the most frequent ones
 INSERT INTO TABLE ${hiveconf:RESULT_TABLE}
 SELECT pid1, pid2, COUNT (*) AS cnt
