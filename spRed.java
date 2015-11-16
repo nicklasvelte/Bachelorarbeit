@@ -20,7 +20,7 @@ import org.apache.spark.api.java.function.VoidFunction;
 
 import scala.Tuple2;
 
-//create the right (value, value) tuples
+//create the right (value, value) tuples 
 class valRDD implements PairFunction<Tuple2<Integer, String>,Integer, String>{
 	public Tuple2<Integer, String> call(Tuple2<Integer, String> orgPair) {
 		String strRddVal = String.valueOf(orgPair._2());
