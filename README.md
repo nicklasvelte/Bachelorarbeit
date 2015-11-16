@@ -4,6 +4,9 @@ Wichtige Datein für meine Bachelorarbeit
 BROKEN_PIPE.log:         
 Broken pipe error aus Listing 4.3
 
+bigbenchqueriesmr.jar:  
+originale MapReduce Jar
+
 mrRed.java:              
 originaler MapReduce Code
 
