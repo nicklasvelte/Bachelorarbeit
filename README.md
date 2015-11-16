@@ -17,7 +17,7 @@ run_local.jar:
 JAR, die modifizierte MapReduce und Spark Jobs enthalten, um sie wie in Listing 4.2 und 4.1 aufzurufen
 
 spRed.java:              
-endgüultiger Spark Code
+endgültiger Spark Code
 
 sparkRed_inFile.java:
-modifizierter Spark Code, der einen Inputstream und einen Outputstream enthalt
+modifizierter Spark Code, der einen Inputstream und einen Outputstream enthäalt
