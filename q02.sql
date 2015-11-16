@@ -5,7 +5,7 @@
 ADD FILE ${env:BIG_BENCH_QUERIES_DIR}/Resources/bigbenchqueriesmr.jar;
 
 --Result -------------------------------------------------------------------------
---keep result human readable
+--keep result human readable 
 set hive.exec.compress.output=false;
 set hive.exec.compress.output;
 --CREATE RESULT TABLE. Store query result externally in output_dir/qXXresult/
