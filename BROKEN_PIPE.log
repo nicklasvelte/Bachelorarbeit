@@ -1,5 +1,5 @@
 15/11/08 15:05:41 ERROR Executor: Exception in task 1.0 in stage 127.0 (TID 139)
-java.io.IOException: Broken pipe
+java.io.IOException: Broken pipe 
 	at java.io.FileOutputStream.writeBytes(Native Method)
 	at java.io.FileOutputStream.write(FileOutputStream.java:345)
 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
